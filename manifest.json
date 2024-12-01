@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Health Reminder",
+    "version": "1.0",
+    "description": "Remind yourself to drink water, take medicines, sleep, and rest.",
+    "permissions": ["alarms", "notifications", "storage"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icons/time-4-128.png"
+    },
+    "icons": {
+      "128": "icons/time-4-128.png"
+    }
+  }
+  

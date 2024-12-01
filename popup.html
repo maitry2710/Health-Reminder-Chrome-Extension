@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health Reminder</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+    }
+    .reminder {
+      margin-bottom: 20px;
+    }
+    label {
+      font-weight: bold;
+    }
+    input {
+      margin: 5px 0;
+      padding: 5px;
+      font-size: 16px;
+      width: 100px;
+    }
+    button {
+      margin-top: 10px;
+      padding: 5px 10px;
+      font-size: 14px;
+    }
+    .action-buttons button {
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Health Reminder</h1>
+  <div class="reminder">
+    <label for="waterInterval">Drink Water (mins):</label>
+    <input id="waterInterval" type="number" min="1" placeholder="Minutes">
+    <div class="action-buttons">
+      <button id="setWaterReminder">Set</button>
+      <button id="stopWaterReminder">Stop</button>
+    </div>
+  </div>
+  <div class="reminder">
+    <label for="medicineInterval">Take Medicine (mins):</label>
+    <input id="medicineInterval" type="number" min="1" placeholder="Minutes">
+    <div class="action-buttons">
+      <button id="setMedicineReminder">Set</button>
+      <button id="stopMedicineReminder">Stop</button>
+    </div>
+  </div>
+  <div class="reminder">
+    <label for="sleepInterval">Sleep (mins):</label>
+    <input id="sleepInterval" type="number" min="1" placeholder="Minutes">
+    <div class="action-buttons">
+      <button id="setSleepReminder">Set</button>
+      <button id="stopSleepReminder">Stop</button>
+    </div>
+  </div>
+  <div class="reminder">
+    <label for="restInterval">Take Rest (mins):</label>
+    <input id="restInterval" type="number" min="1" placeholder="Minutes">
+    <div class="action-buttons">
+      <button id="setRestReminder">Set</button>
+      <button id="stopRestReminder">Stop</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
+
