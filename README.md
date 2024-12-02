@@ -66,7 +66,20 @@ Health Reminder is a simple and efficient Chrome extension designed to help you 
   - ```alarms:``` To create and manage timers for reminders.
   - ```notifications:``` To display notifications for reminders.
   - ```storage:``` (Optional for future improvements) To store user settings and preferences.
+## Screenshots:
+- Setting the timer:
+       ![Alt text](https://github.com/maitry2710/Health-Reminder-Chrome-Extension/blob/8dc5ac33af1e5311f47eb1433adc08994e396449/Screenshot%202024-12-01%20154903.png)
+       <img src="https://github.com/maitry2710/Health-Reminder-Chrome-Extension/blob/8dc5ac33af1e5311f47eb1433adc08994e396449/Screenshot%202024-12-01%20154903.png" alt="Alt text" width="300" />
 
+
+- Reminder set:
+       ![Alt text](https://github.com/maitry2710/Health-Reminder-Chrome-Extension/blob/8dc5ac33af1e5311f47eb1433adc08994e396449/Screenshot%202024-12-01%20154839.png)
+       <img src="(https://github.com/maitry2710/Health-Reminder-Chrome-Extension/blob/8dc5ac33af1e5311f47eb1433adc08994e396449/Screenshot%202024-12-01%20154839.png" alt="Alt text" width="400" />
+
+
+- Reminder:
+        ![Alt text](https://github.com/maitry2710/Health-Reminder-Chrome-Extension/blob/8dc5ac33af1e5311f47eb1433adc08994e396449/Screenshot%202024-12-01%20154939.png)
+        <img src="https://github.com/maitry2710/Health-Reminder-Chrome-Extension/blob/8dc5ac33af1e5311f47eb1433adc08994e396449/Screenshot%202024-12-01%20154939.png" alt="Alt text" width="400" />
 
 ## License
 
